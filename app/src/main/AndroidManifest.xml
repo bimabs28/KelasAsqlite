@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KelasAsqlite">
-        <activity android:name=".TemanBaru"></activity>
+        <activity android:name=".LihatData"></activity>
+        <activity android:name=".Edt_Data" />
+        <activity android:name=".TemanBaru" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

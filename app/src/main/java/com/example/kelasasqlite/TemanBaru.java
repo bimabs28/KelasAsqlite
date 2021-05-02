@@ -36,10 +36,10 @@ public class TemanBaru extends AppCompatActivity {
                 }else{
                     nm = tNama.getText().toString();
                     tlp = tTelpon.getText().toString();
-                    HashMap<String,String> qvalues = new HashMap<>();
-                    qvalues.put("nama",nm);
-                    qvalues.put("telpon",tlp);
-                    controller.insertData(qvalues);
+                    HashMap<String,String> QueryValues = new HashMap<>();
+                    QueryValues.put("nama",nm);
+                    QueryValues.put("telpon",tlp);
+                    controller.insertData(QueryValues);
                     callHome();
                 }
             }
